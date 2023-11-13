@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.logo img{
+    border-radius: 100%;
+    width: 120px;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.title p {
+    text-align: center;
+}
+
+.box {
+    background-color: #234222;
+    border-radius: 5px;
+    width: 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.input-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.input-login input {
+    width: 200px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.btn-login{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-login input{
+    width: 105px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.navbar {
+    text-align: center;
+    background-color: lightgray;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+}
+
+.navbar a{
+    width: 150px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    opacity: 200px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.produk-title{
+    margin: 20px 0 20px 0;
+}
+
+.produk-set {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produk-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 20px 20px 0 20px;
+}
+
+.btn-produk input{
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: none;
+    background-color: gray;
+    color: white;
+}
+
+.footer{
+    background-color: lightgray;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
+}
+
+.transaksi-box {
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.transaksi {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+}
+
+.transaksi input {
+    height: 35px;
+    width: 320px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.transaksi-extra {
+    margin-top: 100px;
+}
+
+.extra {
+    margin-left: 140px;
+    display: flex;
+    gap: 10px;
+}
+
+.extra label {
+    width: 200px;
+}
+
+.box-btn-set {
+    margin: 90px 0 0 200px;
+}
+
+.box-btn-set input {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.transaction {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.transaction-1 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+}
+
+.transaction-1 input{
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 320px;
+    height: 35px;
+}
+
+.transaction-btn input {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 392px;
+    width: 150px;
+}
+
+.transaction-2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+    margin-top: 53px;
+}
+
+.transaction-2 input{
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 320px;
+    height: 35px;
+}
